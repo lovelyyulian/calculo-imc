@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(74deg,#3DEBB0 1%,#8956F3 99%);
+  display: flex;
+  align-content: center;
+  align-items: center;
+  font-family: Sans-Serif;
+}
+header {
+  position: absolute;
+  top: 8%;
+  width: 100%;
+  text-align: center;
+  color: purple;
+}
+#content {
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 0);
+  display: flex;
+  align-content: center;
+  align-items: center;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border:0 solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  
+  overflow: hidden;
+}
+#form {
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  
+  transition: 1s;
+}
+.text-field {
+  position: absolute;
+  right: 50%;
+  top: 30px;
+  transform: translate(50%, 0);
+}
+.text-field input {
+  outline: none;
+  border-radius: 10px;
+  
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border-style: solid;
+  border-color: white;
+  
+}
+.calculoBtn {
+  position: absolute;
+  background-color: #df2c14;
+  color: white;
+  
+  width: 70px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  
+  right: 50%;
+  bottom: 30px;
+  transform: translate(50%, 0);
+  
+  transition: .5s;
+}
+.calculoBtn:hover {
+  background-color: #c61a09
+}
+#results {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 10px;
+  left: 300px;
+  
+  transition: 1s;
+}
+.voltarBtn {
+  position: absolute;
+  width: 70px;
+  height: 35px;
+  top: 5px;
+  left: 5px;
+  border-radius: 10px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: white;
+  color: black;
+  transition: 1s;
+}
+.voltarBtn:hover {
+  background-color: white;
+}
+#resultados {
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 0);
+}
