@@ -6,7 +6,7 @@ body {
   display: flex;
   align-content: center;
   align-items: center;
-  font-family: Sans-Serif;
+  font-family: OCR A Std, monospace;
 }
 header {
   position: absolute;
