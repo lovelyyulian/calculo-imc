@@ -1,4 +1,4 @@
-alert(' Olá, obrigado por acessar o meu site. Cálculo de IMC é um dos meus primeiros projetos utilizando o JavaScript.\n É algo bem simples, mas como estou iniciando nisso eu fico muito feliz em compartilhá-lo por aqui.\n\n Caso haja qualquer dúvida ou sugestão o usuário pode contatar-me pelo Instagram: @oskaralvgustt.');
+alert(' Olá, obrigado por acessar o meu site. Cálculo de IMC é um dos meus primeiros projetos utilizando o JavaScript.\n É algo bem simples, mas como estou iniciando nisso eu fico muito feliz em compartilhá-lo por aqui.\n\n Caso haja qualquer dúvida ou sugestão o usuário poderá me contatar pelo Instagram: @moldybisciuts1904.');
 function calcular() {
   document.getElementById("altura").style.borderColor = "white";
   document.getElementById("altura").style.backgroundColor = 'transparent';
